@@ -4,6 +4,12 @@ public class EmployeeData {
 	private String id;
 	private String name;
 	private int salary;
+	public EmployeeData(String id, String name, int salary) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.salary = salary;
+	}
 	public String getId() {
 		return id;
 	}
